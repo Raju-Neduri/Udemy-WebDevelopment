@@ -1,17 +1,27 @@
 /* Write your code here: */
+
+/* This is the example for group combining  using comma*/
 h1,
 h2 {
     color: blueviolet;
 }
 
+/* This is the example for Child combining using ">" */
 .box>p {
     color: firebrick;
 }
 
+/* This is the example for Descendant combinator using space between specified elements */
 .box .list {
     color: blue;
 }
 
+/* This is the example for combining Selectors*/
 li.done {
     color: green;
+}
+
+/* This is the example for combining combiners */
+ul p.done {
+    font-size: 0.5rem;
 }
