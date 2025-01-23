@@ -11,3 +11,7 @@ h2 {
 .box .list {
     color: blue;
 }
+
+li.done {
+    color: green;
+}
