@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBuzz</title>
+</head>
+
+<body>
+    <script>
+        var output = [];
+        var count = 1;
+
+        function fizzBuzz() {
+            if (count % 3 === 0 && count % 5 === 0) {
+                output.push("FizzBuzz");
+            } else if (count % 3 === 0) {
+                output.push("Fizz");
+            } else if (count % 5 === 0) {
+                output.push("Buzz");
+            } else {
+                output.push(count);
+            }
+
+            console.log(output);
+            count++;
+        }
+
+        // Call it multiple times
+        fizzBuzz(); // 1
+        fizzBuzz(); // 2
+        fizzBuzz(); // Fizz
+        fizzBuzz(); // 4
+        fizzBuzz(); // Buzz
+        fizzBuzz(); // Fizz
+        fizzBuzz(); // 7
+        fizzBuzz(); // 8
+        fizzBuzz(); // Fizz
+        fizzBuzz(); // Buzz
+        fizzBuzz(); // 11
+        fizzBuzz(); // Fizz
+        fizzBuzz(); // 13
+        fizzBuzz(); // 14
+        fizzBuzz(); // FizzBuzz
+    </script>
+</body>
+
+</html>
