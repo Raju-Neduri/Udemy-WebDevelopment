@@ -1,3 +1,7 @@
 h1 {
   color: red;
 }
+button{
+  border: none;
+  padding: 5px;
+}
