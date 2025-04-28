@@ -1,7 +1,11 @@
 h1 {
   color: red;
 }
-button{
-  border: none;
-  padding: 5px;
+
+
+
+.huge{
+  font-size: 10rem;
+  color: rgb(21, 51, 150);
+  font-weight: bold;
 }
