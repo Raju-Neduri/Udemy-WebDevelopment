@@ -19,3 +19,5 @@ if (randomNumber1 > randomNumber2) {
 } else {
   heading.textContent = "Draw!";
 }
+
+
